@@ -14,3 +14,38 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.chatbox {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+#chatLog {
+  background: #000;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+#userInput {
+  width: 70%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.chatbox button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background: #00ff88;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
